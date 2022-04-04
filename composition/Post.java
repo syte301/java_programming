@@ -1,4 +1,4 @@
-class Post implements iPost {
+final class Post implements iPost {
   private String title;
   private String text;
   Post(String title, String text) {

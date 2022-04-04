@@ -1,4 +1,4 @@
-class PaidLesson implements iPost {
+final class PaidLesson implements iPost {
   private Lesson lesson;
   private double price;
   PaidLesson(Lesson lesson, double price) {

@@ -1,4 +1,4 @@
-class Lesson implements iPost {
+final class Lesson implements iPost {
   private Post post;
   private String homework;
   Lesson(Post post, String homework) {
